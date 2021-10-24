@@ -15,6 +15,7 @@ public class MathOperation {
         IMathFunction divide = (int x, int y) -> x / y;
         IMathFunction sub = (x, y) -> x - y;
 
+        // Passing the Lambda function to Show Result
         IMathFunction.printResult( 6,  3,  "Addition", add);
         IMathFunction.printResult( 6,  3, "Multiplication", multiply);
         IMathFunction.printResult( 6,  3,  "Divide", divide);
